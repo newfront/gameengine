@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="env_grasses" tilewidth="16" tileheight="16">
+  <image source="../sprites/environment/grasses/grasses.gif" width="208" height="16"/>
+ </tileset>
+ <tileset firstgid="14" name="tress" tilewidth="16" tileheight="16">
+  <image source="../sprites/environment/trees/tress.png" width="192" height="80"/>
+ </tileset>
+ <layer name="field" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYCKAGYlQQ02Mbh8t7aen3+hlFzH20DtOB6t7cNk72MJnKIUpuW6hh3sJ2TGYwozaccxIhh5CGACZKwMP
+  </data>
+ </layer>
+ <layer name="environment" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzd0zkOwkAMheGcAELDTsNOw07DTpOE+1+Iv0FyYXuYqSKe9BVuXmM7y/4jbXTQRU+ZZRpoIkfL6BtjgilmyizTxwBDjIy+NTbYYqfMMnMssMTK6DvjgituyiyzxwFHnIy+AiUqvJVZ5o4HnngZfd94e0iJt4eUeHtIibeHlHh7qEt++aeYhP4p9qZC/xR7U6F/ir2p0D/V+aY+1VcVBQ==
+  </data>
+ </layer>
+</map>

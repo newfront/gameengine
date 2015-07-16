@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Game Engine</title>
+<link rel="stylesheet" href="css/style.css"/>
+<script src="scripts/helpers/utils.js"></script>
+<script src="scripts/engine/game.js"></script>
+</head>
+<body id="game">
+<script>
+	// build the canvas
+	var game = new Game({
+        width: 300,
+        height: 400,
+        controllers: [{
+            type: "gamepad",
+            context: new Utils.GamePad(),
+            method: "init"
+        }]
+    });
+    game.init(); // create canvas, get contexts
+</script>
+</body>
+</html>

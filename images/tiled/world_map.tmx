@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="grasses" tilewidth="16" tileheight="16">
+  <image source="../../../../../../../../../Users/shaines1/git/html5/game/images/sprites/environment/grasses/grasses.gif" width="208" height="16"/>
+ </tileset>
+ <tileset firstgid="14" name="trees" tilewidth="16" tileheight="16">
+  <image source="../../../../../../../../../Users/shaines1/git/html5/game/images/sprites/environment/trees/tress.png" width="192" height="80"/>
+ </tileset>
+ <layer name="environment" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt3MlOwzAUBVCnsMii//+9gEhE5RLIWPvZZ3GUznKs3KtM6i2ldGvIMCk9DoA19BX0peXMD9kSaF/UvG8Zd9R1BADqYF/C/AFt0UtAq/QbnOtIpuQRIJYae3tI7qGFo16Zn96zqq+ASIaFx9CC/7Zp2zzQGr0GEIvehrYdzfiZHaFvAJ7pRlhPXgDqpJ+BEs7uHl0GAADwOo7BzB0cIQd18z8MsJ/crDd+uk/m1+bnYwXjA/gypp++es/cH94vPU6gb2N67qu3Sd5XOgsoZUzb+0pnwTbOSx2Xd9Ca40GdBX1Y6tgS3ftb/zyeb88tfb70nAJtW+qevUqvDwDAUSWOH90HCnWRRXMDAAAAAAAAADnXzAG+6UMAgPMN2ZL982gO4TzydP38mmMAIBL7LhDH2XmNnv/o44eeXJHXmn7zr+/pKujTq7KvY6BPEbI/ZI8jXD+rfXzA9SJ01TzO0mMAYtAXwBa9dUZv6ws9ipzzKMenAAAAALTB+ShgrZJdoaegrA+Rbo6J
+  </data>
+ </layer>
+ <layer name="trees" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt20eupDAUBVBW0DnnnHPOOe5/Q/2kGrT0UFG/ofm24RzpDiwmnuByXZuuAwAAgDYciByMHIocLjwXgCFnImcj5yLnC88FYMiNyM3IrcjtwnMBGPIk8jTyLPK88FwAhnyIfIx8inwuOxWAQfp2oBX6dqAV+nagFfp2oBX6dqBWRyJHI8cix7t+356fA5RyIXIxcilyuev37fk5QCl3Incj9yL3u37fnp8DlPIi8jLyKvK66/ft+XmrTkRORk5FTheeCzDOl8jXyLfI967ft+fnrboSuRq5FrleeC7ARu7Lp46X4kHkYeRR5HHhuQAbuS+fOl6KN5G3kXeR94XnAmzkvnzqeCl+RH5GfkV+F54LsJH78qljgLnkvnzqGKAU99WBVrivDpQwZq/kvjpQwpi90lLuqwN1y/upMXulpdxXB8obul+e91N5r7TULt23f1CnofvleT+V90pL7dJr+vbP2gl/Dd0v37WfKtWlz/0O1/TtX01rJ5Q2dL98136qVJc+9zu8l2//8to9dbxNTWsnlPYv98t3/T/cL3O/w3v59i+v3VPH2/humjWYowuv5W5CDe9wXrunjrfx3TRrMEcXXsvdhBre4bx2Tx3Dmi3xXnnu2UueneW1e+oY1myJv9+5Z3d2BsuwxN/v3LM7O4O2zXWuXoPcs9fQuwPjzXWuXoPcs9fQuwPjzXWuDvC/OVcHWuFcHWhNSz06sG4t9ejAuunRgVbo0YFW6NEBAAAAAAAAAAAAAAAAAID99AemOm83
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="300" height="60">
+  <object x="720" y="48" width="64" height="160"/>
+  <object x="656" y="208" width="192" height="48"/>
+  <object x="464" y="288" width="320" height="48"/>
+  <object x="592" y="368" width="64" height="48"/>
+  <object x="384" y="400" width="64" height="48"/>
+  <object x="320" y="432" width="64" height="48"/>
+  <object x="384" y="480" width="64" height="48"/>
+  <object x="448" y="448" width="64" height="48"/>
+  <object x="208" y="448" width="64" height="48"/>
+  <object x="48" y="528" width="64" height="48"/>
+  <object x="16" y="608" width="256" height="48"/>
+  <object x="48" y="688" width="64" height="48"/>
+  <object x="928" y="480" width="64" height="48"/>
+  <object x="896" y="560" width="128" height="48"/>
+  <object x="1312" y="448" width="64" height="48"/>
+  <object x="1584" y="256" width="64" height="48"/>
+  <object x="1456" y="496" width="320" height="48"/>
+  <object x="1456" y="480" width="320" height="16"/>
+  <object x="1472" y="464" width="288" height="16"/>
+  <object x="1488" y="448" width="96" height="16"/>
+  <object x="1504" y="432" width="80" height="16"/>
+  <object x="1520" y="416" width="64" height="16"/>
+  <object x="1536" y="400" width="48" height="16"/>
+  <object x="1552" y="384" width="48" height="16"/>
+  <object x="1632" y="384" width="48" height="16"/>
+  <object x="1648" y="400" width="48" height="16"/>
+  <object x="1648" y="432" width="80" height="32"/>
+  <object x="1728" y="464" width="16"/>
+ </objectgroup>
+</map>

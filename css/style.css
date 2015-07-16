@@ -1,0 +1,21 @@
+/* style.css */
+html,
+body {
+	height: auto;
+	background: #2b2b2b;
+}
+
+.fluid {
+	width: 100%;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.game {
+	background: #fff;
+	/*width: 600px;
+	height: 400px;*/
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="grasses_map" tilewidth="16" tileheight="16">
+  <image source="../sprites/environment/grasses/grasses.gif" width="208" height="16"/>
+ </tileset>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEOgCAQA8CF/z/aFxA1EqE6h7ntgbRJD/Sq6sAlbYM3oNNUo6x1sDZ/9spfT3l0ti432ed0hZ6+5I2s9fk8n1k3ADPd3Z2zeztGKn8kwJ/YMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMh3AIInTgo=
+  </data>
+ </layer>
+</map>

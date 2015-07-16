@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="grasses" tilewidth="16" tileheight="16">
+  <image source="../../../../../../../../../Users/shaines1/git/html5/game/images/sprites/environment/grasses/grasses.gif" width="208" height="16"/>
+ </tileset>
+ <tileset firstgid="14" name="trees" tilewidth="16" tileheight="16">
+  <image source="../../../../../../../../../Users/shaines1/git/html5/game/images/sprites/environment/trees/tress.png" width="192" height="80"/>
+ </tileset>
+ <layer name="environment" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt291SwjAQBtAWvegF7/+86gyMWKwCSZvN5lycEf+YZLP7URBP0zSdEpkvWq8D4BHyCsaSeebn1UegXPR5ir6+GuvudY+Uc/bqCFCDHFQ/IBe5NLbRz3/0/WfnfKHue41K7sc8UkoPwbEiztw85XsPbfS9RF8fsc909P7JlldAbvPGbcjgv57W80A2ci0/Zwy5mGnIrXTGa2aEvKHEnv2jN2lJ/6k3zg+oQ0aoPTHoB45Su9f0LhnoYwCA47kGUze1w7mqF/fn4/+a4TXm5nHLp/PF9WvXz5cA6wP4skzfefW+cr75fut1AmNbpvu8ertY55XMel2Ga/0Me6Bfy/R8Xu2dWWZC/bJxJuXWGfTI80HXWT/pQ7La6u0WPf9b/ty+3r629fOta0oMcpu9bGXPq1rvBwCgVItrb+8DhVjMotoAkJPHMeiDWY3JuQAAUblOgeOYN/QAgCwEuJKHAMAzXDs8Vyf1Kq+jGkI95mn/+kauceS1oQfIbc/eG6WvR9knx9Nb0I/a89r7/Pe+fhjJHvMa6T7/+j1ZBWM6avZlDIyph9mfV7ej//2sl7rCLT27T017qGsPa4xGzRjVSL0/0l5x3uqaZ78R1gCZ9TxjvTw/BQCgPteB6AEAWvB6FPCollkhp6CtD1Xbjl0=
+  </data>
+ </layer>
+ <layer name="trees" width="300" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt3EeSIyEQheE+wXjvve3x3nt3/wtN9kKbjGoQlIAH/F9ELmqHQiVBPbLY2wMATSesTlqdsjrdeCwAEHLF6qrVNavrbYcCAEEPrB5a7Vs9ajyWXEesjlodszreeCwAynlt9cbqrdW7xmPJdcHqotUlq8uNxwKgnO9WP6x+Wv1qPJZcd6zuWt2zut94LADKOWN11uqc1fnGY8n13OqF1UurV43HAqCcG1Y3rW5Z3W48llyfrb5YfbX61nYoAAp6bPXE6qnVs8ZjyUXeDszhvdUHq49WnxqPJRd5OzCH31Z/rP5a/Ws8llzk7cCYfD87eTsAVb6fnbwdgCrfz95j3u7XiD5v551IYAy+n73HvN2vEX3ezjuRwBh8P3uPebtfI/q8fYR3IoEZ+WejEfJ2v0b0efsI70Qe6PG7Adbwz0Yj5O1+jejz9hHeiTzQ43cDrOGfjRTzdp+Xr70ehcJ3A9Tkn40U83afl6+9HoXCd1PLLHMQwvyzkWLe7vPytdejUPhuapllDsI6Cpmuz8vXXqM/s8xBWEch0/V5+dpr9Ic5CNvoIdOlX318zEHYRg+ZLv3q/Zt1jxe7VTvTzVkr0a/ev1n3eNG3nLXSKP3qM5t1jxd98eupnLXSKP3qM2OPFypC2YNfT/m10qhZukKfiBL2eKEilD349ZRfK42apSv0iWwo/neSryPHLu7lUPYQW0+1ytJL/4aV+kSU/js3yNeRYxf3cih7iK2nWmXppX/D2/SJxM76Sb0+jNJ/5wb5OnLs4l5OyR5iz4e1lP4Nb9MnEjvrJ/X6MIo9duTryBG6l0tk4Sq9CQq/4dhZP6nXh1F8b5p8HTlC93KJLFylN0HhNxw76yf1GhhdKHcesa/cf96We2exs35Sr4HRhXLnEedv/3kV984ALAvlziPO3/7zKu6dAVi2lDuX2ldX4D+vQu4OTYp9trNbyp1L7asr8J9XIXeHJrICPUtzSKl9daAnZAV6luYQ9tUBsgJFS3MI++oAWYGi2v3tgCp/ZoS//8nf26vd3w6o8mdG+Puf/L2+lDmDHB0z8WdG+Puf/L2+lDmDHB0z8WdG+Puf/L2+lDmDHB0z8WdG+Puf/L0+5gwAvWDOAKAqlq+zRwtARSxfZ48WgIpYvs4eLQAVsXydvB2Aili+Tt4OoJTUs/Ni+Tp5O4BSUs/Oi+Xr5O0ASkk9Oy+Wr5O3Aygl9ey8WL5O3g6glNSz82L5Onk7gF79Bz8a3nc=
+  </data>
+ </layer>
+ <objectgroup name="collidable" width="300" height="60">
+  <object name="tree" type="sprite" x="720" y="48" width="64" height="128"/>
+  <object name="tree" type="sprite" x="656" y="208" width="192" height="48"/>
+  <object name="tree" type="sprite" x="464" y="288" width="320" height="48"/>
+  <object name="tree" type="sprite" x="592" y="368" width="64" height="48"/>
+  <object name="tree" type="sprite" x="384" y="400" width="64" height="48"/>
+  <object name="tree" type="sprite" x="320" y="432" width="64" height="48"/>
+  <object name="tree" type="sprite" x="384" y="480" width="64" height="48"/>
+  <object name="tree" type="sprite" x="448" y="448" width="64" height="48"/>
+  <object name="tree" type="sprite" x="208" y="448" width="64" height="48"/>
+  <object name="tree" type="sprite" x="48" y="528" width="64" height="48"/>
+  <object name="tree" type="sprite" x="16" y="608" width="256" height="48"/>
+  <object name="tree" type="sprite" x="48" y="688" width="64" height="48"/>
+  <object name="tree" type="sprite" x="928" y="480" width="64" height="48"/>
+  <object name="tree" type="sprite" x="896" y="560" width="128" height="48"/>
+  <object name="tree" type="sprite" x="1312" y="448" width="64" height="48"/>
+  <object name="tree" type="sprite" x="1584" y="256" width="64" height="48"/>
+  <object name="tree" type="sprite" x="1456" y="496" width="320" height="48"/>
+  <object x="1456" y="480" width="320" height="16"/>
+  <object x="1472" y="464" width="288" height="16"/>
+  <object x="1488" y="448" width="96" height="16"/>
+  <object x="1504" y="432" width="80" height="16"/>
+  <object x="1520" y="416" width="64" height="16"/>
+  <object x="1536" y="400" width="48" height="16"/>
+  <object x="1552" y="384" width="48" height="16"/>
+  <object x="1648" y="384" width="32" height="32"/>
+  <object x="1728" y="464" width="16"/>
+  <object x="1648" y="416" width="64" height="48"/>
+  <object name="tree" type="sprite" x="1872" y="464" width="64" height="48"/>
+  <object name="tree" type="sprite" x="2528" y="304" width="128" height="48"/>
+  <object name="tree" type="sprite" x="2400" y="384" width="192" height="48"/>
+  <object name="tree" type="sprite" x="2464" y="464" width="64" height="48"/>
+  <object name="tree" type="sprite" x="3120" y="608" width="64" height="48"/>
+  <object name="tree" type="sprite" x="3056" y="688" width="192" height="48"/>
+  <object name="tree" type="sprite" x="4736" y="0" width="64" height="368"/>
+  <object name="tree" type="sprite" x="4672" y="160" width="64" height="48"/>
+  <object name="tree" type="sprite" x="4608" y="240" width="128" height="48"/>
+  <object name="tree" type="sprite" x="4736" y="464" width="64" height="464"/>
+  <object name="tree" type="sprite" x="4416" y="864" width="320" height="64"/>
+  <object name="tree" type="sprite" x="4672" y="704" width="64" height="48"/>
+  <object name="tree" type="sprite" x="4608" y="784" width="128" height="80"/>
+ </objectgroup>
+</map>

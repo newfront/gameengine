@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<title>Game Engine - GamePad Test</title>
+<link rel="stylesheet" href="css/style.css"/>
+<style>
+ .white {
+    color: #fff;
+ }
+</style>
+</head>
+<body id="body">
+    <div id="gamepad" class="white"></div>
+<script src="scripts/helpers/utils.js"></script>
+<script src="scripts/helpers/gamepad.js"></script>
+<script>
+	var info = document.getElementById("gamepad"),
+		gamepad = new Utils.GamePad();
+
+        function buttonPressed (params) {
+            var string = "Buttons that are currently pressed are: ",
+                data = params.activeButtons;
+
+            if (data['0']) {
+                string += " X ";
+            }
+            if (data['1']) {
+                string += " O";
+            }
+            if (data['2']) {
+                string += " Square";
+            }
+            if (data['3']) {
+                string += " Triangle";
+            }
+            if (data['9']) {
+                string += " Start";
+            }
+            if (data['8']) {
+                string += " Select";
+            }
+            if (data['15']) {
+                string += " Right Arrow";
+            }
+            if (data['14']) {
+                string += " Left Arrow";
+            }
+            if (data['12']) {
+                string += " Up Arrow";
+            }
+            if (data['13']) {
+                string += " Down Arrow";
+            }
+
+            info.innerHTML = string;
+        }
+
+        gamepad.registerObserver({
+            id: "test",
+            type: "buttonsPressed",
+            method: this.buttonPressed.bind(this)
+        });
+
+        gamepad.init();
+
+</script>
+</body>
+</html>
